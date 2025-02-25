@@ -32,3 +32,8 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz", opts)
 -- Find and center
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
+
+-- Extra Gitsigns Keymaps
+
+vim.keymap.set("n", "<leader>g>", "<cmd>Gitsigns next_hunk<CR>", opts)
+vim.keymap.set("n", "<leader>g<", "<cmd>Gitsigns prev_hunk<CR>", opts)
